@@ -9,7 +9,7 @@ HUGGINGFACEHUB_API_TOKEN = os.getenv()
 
 # image to text
 def img2text(url:str):
-	img_to_txt = pipeline(
+	img_to_txt = pipelines(
 		"image-to-text",
 		model = "Salesforce/blip-image-captioning-base"
 	)
