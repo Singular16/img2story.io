@@ -1,5 +1,5 @@
 from dotenv import find_dotenv, load_dotenv
-from transformers import pipeline
+import pipeline
 import requests, os, streamlit as st
 from langchain import PromptTemplate, LLMChain, HuggingFaceHub
 from langchain import OpenAI
