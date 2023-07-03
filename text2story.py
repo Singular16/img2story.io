@@ -1,8 +1,8 @@
 from dotenv import find_dotenv, load_dotenv
 import pipeline
 import requests, os, streamlit as st
-from langchain import PromptTemplate, LLMChain, HuggingFaceHub
-from langchain import OpenAI
+from langchain import PromptTemplate, LLMChain, HuggingFaceHub, OpenAI
+
 
 load_dotenv(find_dotenv())
 HUGGINGFACEHUB_API_TOKEN = os.getenv()
